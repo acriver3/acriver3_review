@@ -84,8 +84,7 @@ public class PowerSetData {
     public void runAlgo(int choice) {
         System.out.println();
         int[] copyOfMyArray = new int[myArray.length];
-        System.arraycopy(
-                myArray, 0, copyOfMyArray, 0, myArray.length);
+        System.arraycopy(myArray, 0, copyOfMyArray, 0, myArray.length);
 
         switch (choice) {
         case 0 : {
